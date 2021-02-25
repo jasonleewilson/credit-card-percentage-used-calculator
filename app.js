@@ -10,4 +10,4 @@ function sectionOne() {
     document.getElementById("sectionOneResult1").innerHTML = result1 + "%" ;
     document.getElementById("sectionOneResult2").innerHTML = "$" + result2;
   }
-  
+// idea from this url: https://www.nerdwallet.com/article/finance/30-percent-ideal-credit-utilization-ratio-rule
