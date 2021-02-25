@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Morgage Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- <link rel="icon" href="favicon.ico"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+        <!-- Styles -->
+        <style>
+            h1 {font-size: 1.4em;}
+            small {font-size: 0.6em;}
+        </style>
+    </head>
+    <body>
+      <section class="pt-0 pb-0">
+        <div class="container-fluid m-0 ">
+          <div class="row d-md-flex-row h-100 overflow-hidden">
+            
+            <div class="col-md-12 bg-dark d-flex text-center align-content-center text-white overflow-hidden">
+              <div class=" text-center align-self-center mt-md-5 mb-md-5 pt-5 pb-5 pl-md-5 pr-md-5">
+                <h1 class="mt-md-5">Your credit usage</h1>
+                <form>
+                    <label>Card balance ($)</label>
+                    <input type="text" id="sectionOneFirstNumber" />
+                    <br />
+                    <label>Card limit ($)</label>
+                    <input type="text" id="sectionOneSecondNumber" />
+                    <br />
+                    <p>
+                        <button type="button" class="btn btn-primary mt-4" onClick="sectionOne()" Value="Calculate Price/SqFt">Calculate</button>
+                    </p>
+                    <h5>How close are you to your credit limits?</h5>
+                    <label>Overall credit utilization ratio: </label><span id="sectionOneResult1"> _____</span>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </body>
+    <script src="app.js"></script>
+</html>
